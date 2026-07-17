@@ -1,0 +1,5 @@
+# GuardianHer AI — Sample Crime Data
+# This file provides mock crime density data for the prototype.
+# Format: list of { lat, lng, intensity, crime_type, timestamp }
+# In production, this is replaced by live city open-data API calls.
+[]

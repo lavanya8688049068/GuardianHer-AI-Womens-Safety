@@ -1,0 +1,47 @@
+# ============================================================
+# GuardianHer AI — Python Dependencies
+# IBM Hackathon 2025
+# ============================================================
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# -- Core UI --------------------------------------------------
+streamlit==1.35.0
+streamlit-folium==0.20.0        # Maps rendering inside Streamlit
+folium==0.16.0                  # Interactive map library
+plotly==5.22.0                  # Biometric charts and analytics
+reportlab==4.2.0                # PDF incident report generation
+
+# -- IBM Services ---------------------------------------------
+ibm-watsonx-ai==1.1.0          # watsonx.ai Python SDK (threat scoring)
+ibm-watson==8.1.0               # Watson NLP, STT, TTS, Assistant SDK
+ibm-cos-sdk==2.13.6             # IBM Cloud Object Storage SDK
+aif360==0.6.1                   # IBM AI Fairness 360
+
+# -- Database -------------------------------------------------
+# pysqlite3-binary==0.5.3       # SQLite (uncomment if standard sqlite3 unavailable)
+
+# -- Notifications --------------------------------------------
+twilio==9.2.0                   # Twilio SMS + Voice (auto-call)
+firebase-admin==6.5.0           # FCM push notifications
+
+# -- Maps & Geospatial ----------------------------------------
+geopy==2.4.1                    # Geocoding + Haversine distance calculations
+
+# -- Security -------------------------------------------------
+cryptography==42.0.8            # AES-256 encryption (Fernet)
+PyJWT==2.8.0                    # JWT token validation
+python-dotenv==1.0.1            # .env file loading
+
+# -- Utilities ------------------------------------------------
+requests==2.32.3                # HTTP client
+urllib3==2.2.1
+pydantic==2.7.0                 # Data validation and settings models
+APScheduler==3.10.4             # Background jobs (check-in timers, AI audits)
+pandas==2.2.2                   # Analytics data processing
+numpy==1.26.4                   # Biometric feature vector math
+
+# -- Testing --------------------------------------------------
+pytest==8.2.0
+pytest-mock==3.14.0             # Mock IBM API calls in unit tests
+pytest-cov==5.0.0               # Test coverage reporting

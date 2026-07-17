@@ -1,0 +1,5 @@
+# assets/audio/
+# Place audio assets here:
+#   - alert_chime.mp3    (gentle check-in reminder sound)
+#   - sos_alarm.mp3      (loud SOS alarm sound for deterrence)
+#   - all_clear.mp3      (safe arrival confirmation tone)

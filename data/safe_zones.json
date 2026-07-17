@@ -1,0 +1,5 @@
+# GuardianHer AI — Safe Zones
+# Curated list of safe locations: hospitals, police stations,
+# 24-hour pharmacies, fire stations, and safe havens.
+# Format: list of { name, lat, lng, type, phone, address }
+[]
