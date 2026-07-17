@@ -12,3 +12,13 @@
 # DO NOT add business logic here.
 # Delegate everything to pages/ and services/.
 # ============================================================
+import streamlit as st
+
+st.set_page_config(
+    page_title="GuardianHer AI",
+    page_icon="🛡️",
+    layout="wide"
+)
+
+st.title("🛡️ GuardianHer AI")
+st.write("Streamlit is working successfully!")
