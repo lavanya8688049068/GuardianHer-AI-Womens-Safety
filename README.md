@@ -1,6 +1,6 @@
 # GuardianHer AI
 
-> **IBM Hackathon 2025 | AI for Social Good**
+> **IBM Hackathon 2026 | AI for Social Good**
 > An AI-powered women's safety platform with wearable integration.
 
 ---
@@ -99,7 +99,7 @@ See [`docs/`](docs/) for:
 
 ## Team
 
-IBM Hackathon 2025 — GuardianHer AI Team
+IBM Hackathon 2026 — GuardianHer AI Team
 
 ---
 
